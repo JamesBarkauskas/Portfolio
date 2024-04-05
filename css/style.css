@@ -1,0 +1,18 @@
+
+
+
+.landing-page {
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/landing1.jpg"); */
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../img/landing2.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+#about {
+    background-color:rgb(240,240,240);
+}
+
+#self-image {
+    background: url("../img/self.jpg");
+    background-size: 100px 80px;
+}
