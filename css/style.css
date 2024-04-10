@@ -8,6 +8,8 @@
     height: 100vh;
 }
 
+/* About Section */
+
 #about {
     background-color:rgb(240,240,240);
 }
@@ -15,4 +17,32 @@
 #self-image {
     background: url("../img/self.jpg");
     background-size: 100px 80px;
+}
+
+#about-me h1 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#my-skills h1 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#about-me-text {
+    font-size: 22px;
+}
+
+#my-skills .skills-buttons {
+    /* padding-top: 15px; */
+}
+
+#my-skills .skills-btn {
+    background-color: rgb(200,200,200);
+    color: black;
+    font-weight: bold;
+    padding: 10px 25px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    border: none;
 }
