@@ -1,4 +1,7 @@
-
+textarea {
+    width: 300px;
+    height: 150px;
+}
 
 
 .landing-page {
@@ -8,10 +11,24 @@
     height: 100vh;
 }
 
+.navbar-custom {
+    height: 80px;
+}
+
 /* About Section */
 
 #about {
-    background-color:rgb(240,240,240);
+    /* background-color:rgb(240,240,240); */
+    background-color: #f6f6f6;
+}
+
+#about .dash-fill {
+    color:#643B9F;
+    font-size: 50px;
+}
+
+#about #about-me-intro {
+    font-size: 22px;
 }
 
 #self-image {
@@ -45,4 +62,64 @@
     margin-right: 20px;
     margin-bottom: 15px;
     border: none;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #ececec;
+}
+
+#projects .dash-fill{
+    color:#643B9F;
+    font-size: 50px;
+}
+
+/* #projects #projects-intro {
+    font-size: 22px;
+} */
+
+#projects img {
+    max-width: 100%;
+    width: 650px;
+    height: 350px;
+}
+
+.details-btn {
+    padding: 10px 50px;
+    background-color: #643B9F;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    max-width: 100%;
+    
+}
+
+/* Contact */
+#contact {
+    /* background-color:rgb(240,240,240); */
+    background-color: #f6f6f6;
+}
+
+#contact .dash-fill{
+    color:#643B9F;
+    font-size: 50px;
+}
+
+.details-btn-form {
+    padding: 10px 100px;
+    background-color: #643B9F;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    max-width: 100%;
+    
+}
+
+#contact-form {
+    background-color: #ececec;
+    border-radius: 10px;
+}
+
+.hover-border a:hover {
+    border-bottom: #643B9F 1px solid;
 }
